@@ -20,8 +20,8 @@ from sklearn.calibration import CalibratedClassifierCV
 from sklearn.ensemble import AdaBoostClassifier
 import math
 
-dataPath = '/home/maneesh/journal_fusion/gaze_based_eeg_selected/'
-savePath = '/home/maneesh/Downloads/DNN/Results/'
+dataPath = './data/gaze_based_eeg_selected/'
+savePath = './Results/'
 # experiments = ['Gender_notClean_HI','Gender_notClean_LI', 'Gender_notClean_EYE', 'Gender_notClean_MOUTH'] #  'Gender_notClean_HI',
 experiments = ['Gender_notClean_LI']
 # experiments = [ 'Gender_notClean_EYE', 'Gender_notClean_MOUTH'] #  ]

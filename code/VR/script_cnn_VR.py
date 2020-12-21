@@ -17,8 +17,8 @@ from sklearn.svm import SVC, LinearSVC
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.calibration import CalibratedClassifierCV
 
-dataPath = './../DNN/Data/'
-savePath = '/home/maneesh/Downloads/DNN/Results/'
+dataPath = './data/'
+savePath = './Results/'
 # experiments = ['Gender_Clean', 'Gender_notClean','Emotion_Clean', 'Emotion_notClean'] #  
 # experiments = ['Emotion_Clean', 'Emotion_notClean'] # 
 experiments = ['Emotion_notClean'] # 

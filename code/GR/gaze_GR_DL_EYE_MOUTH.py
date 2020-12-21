@@ -18,8 +18,8 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.calibration import CalibratedClassifierCV
 from keras.utils.layer_utils import print_summary
 
-dataPath = '/home/maneesh/atom/masked_data/'
-savePath = '/home/maneesh/Downloads/DNN/Results/'
+dataPath = './data/'
+savePath = './Results/'
 # female=0, male=1 in /home/maneesh/atom/Plos_code/feature_vector.mat
 experiments = ['Gender_EYE','Gender_MOUTH'] # 
 emotion = ['Anger','Disgust','Fear','Happy','Sad','Surprise']

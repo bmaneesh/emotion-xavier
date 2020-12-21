@@ -18,8 +18,8 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.calibration import CalibratedClassifierCV
 from keras.utils.layer_utils import print_summary
 
-dataPath = '/home/maneesh/atom/Plos_code/feature_vector'
-savePath = '/home/maneesh/Downloads/DNN/Results/'
+dataPath = './feature_vector'
+savePath = './Results/'
 # female=0, male=1 in /home/maneesh/atom/Plos_code/feature_vector.mat
 experiments = ['Emotion_female_HI','Emotion_female_LI','Emotion_male_HI','Emotion_male_LI'] # 
 foldNum = 10

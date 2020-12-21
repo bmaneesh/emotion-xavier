@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler, Imputer
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
 from keras.utils import np_utils
 
-dataPath = '/home/maneesh/atom/masked_data/'
-savePath = '/home/maneesh/Downloads/DNN/Results/'
+dataPath = './data/'
+savePath = './Results/'
 # female=0, male=1 in /home/maneesh/atom/Plos_code/feature_vector.mat
 experiments = ['Gender_EYE','Gender_MOUTH'] # 
 emotion = ['Anger','Disgust','Fear','Happy','Sad','Surprise']

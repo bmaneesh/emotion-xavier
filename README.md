@@ -1,2 +1,8 @@
 # emotion-xavier
-TAffC submission code
+
+Contains code for valence and gender recognition with EEG and Gaze features
+
+The data folder contains the .mat files with data for GR and VR.
+
+The code is present in the code folder. Each .py is independent. The nature of the code is 
+summarized in the first line of each .py file.
